@@ -22,4 +22,10 @@ AIDA RUZANA BINTI AHMAD YANI A166067
 NUR ADILLA BINTI OTHMAN A165995
 
 
-# Me
+# Methodology
+
+1. Scan and detect ArUco patterns using Find 2d Object’s software
+
+2. Move turtlebot towards the destinationbased on ArUco patterns
+
+3. Move turltebot back to station and rescan the new ArUco patterns
