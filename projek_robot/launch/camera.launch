@@ -1,0 +1,15 @@
+<launch>
+
+    <arg name="GAZEBO_MODE" default="false"/>
+    <arg name="teach" default="true"/>
+    <arg name="recognize" default="false"/>
+
+    <node pkg="find_object_2d" type="find_object_2d" name="find_object_2d">
+        <remap from="image" to="/raspicam_node/image"/>
+        <param name="gui" value="$(arg teach)"/>
+        <param if="$(arg recognize)" name="objects_path" value="$(find tutorial_pkg)/image_rec/"/>
+    </node>
+
+    
+
+</launch> 
