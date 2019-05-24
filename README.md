@@ -5,7 +5,9 @@ This art of work introduce the work of 'Abang Posmen' using ROS library
 
 **Main programmer**
 
-ZULFHANIZAM AMIR SYAHPUTRA BIN MOHD GHANI A166007
+Name  | Matric no
+------------- | -------------
+ZULFHANIZAM AMIR SYAHPUTRA | A166007
 
 **Technician**
 
